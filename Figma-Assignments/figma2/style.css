@@ -2,24 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
 
 body{
-    background-image:url(assets/5f8014105b330de946f4ae2220ebfdae.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url(asset/5fea9fc7643fdf08cdc95b37930e3fb7.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+ 
 }
-
 .navbar{
-    /* background-color: black; */
-    height: 80px;
+
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     position: relative;
+    border-bottom: 1px  solid #ffffffad;
     
 
 
@@ -32,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     position: absolute;
-    left: 70px;
+    left: 90px;
     font-size: 20px;
   
 }
@@ -48,7 +50,7 @@ body{
     width: 30%;
     /* background-color: brown; */
     position: absolute;
-    right:250px;
+    right:100px;
     list-style: none;
     color: #FFFFFF;
     display: flex;
@@ -71,6 +73,14 @@ body{
 
 }
 
+.nav-btn:hover{
+    cursor: pointer;
+}
+
+
+
+
+
 .txt-con1{
     position: relative;
     top: 130px;
@@ -79,27 +89,21 @@ body{
     width: 100%;
 }
 
-.arrows{
-    height: 50px;
-    width: 100%;
-    background-color: #000000;
-    position: absolute;
-    top: 100px;
- 
-}
+
+
 .txt1-con1{
     height: 100px;
-    width: 700px;
+    width: 600px;
     margin: auto;
     /* background-color: black; */
+    font-weight: 100;
   
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    background: -webkit-linear-gradient(#FC00FF, #00DBDE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 60px;
+    text-align: center;
     
   
 }
@@ -131,24 +135,7 @@ body{
     margin: auto;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-    .nav-menu{
-        display: none;
-    }
+.btn1-con1:hover{
+    cursor: pointer;
 }
+
